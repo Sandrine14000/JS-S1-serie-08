@@ -8,8 +8,18 @@ class Stagiaire {
         return `je m'appelle ${this.prenom} ${this.nom}`;
         // return "je m'appelle "+this.prenom+ " "+this.nom;
     }
-    constructor(prenom, nom="") {
+    constructor(prenom, nom = "") {
         this.prenom = prenom.toLowerCase();
         this.nom = nom.toUpperCase();
     }
 }
+
+class Classe {
+    constructor(_listeStagiaire = "") {
+        
+    }
+
+}
+
+
+
