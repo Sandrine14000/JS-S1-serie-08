@@ -1,10 +1,15 @@
 class Classe {
-    constructor (pListeStagiaire =""){
-        this.listeStagiaire = pListeStagiaire.Array();
+    intitule;
+    listeStagiaire;
+
+    constructor (intitule =""){
+        this.intitule=intitule;
+        this.listeStagiaire = new Array();
     }
 
+     ajouterStagiaire(stagiaire) {
+        listeStagiaire.push(stagiaire);
+    }
 }
 
-function ajouterStagiaire() {
-    this.listeStagiaire = pListeStagiaire.push (Stagiaire);
-}
+

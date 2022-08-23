@@ -31,3 +31,6 @@ console.log(stagiaires[0].salutation());
 
 let anotherStagiaire = new Stagiaire("Lucette", "Anderson");
 console.log(anotherStagiaire);
+
+let Class= new Classe("DWWM");
+console.log(Class.ajouterStagiaire(stagiaire1));
