@@ -37,8 +37,27 @@ let classe = new Classe("DWWM");
 classe.ajouterStagiaire(stagiaires);
 /*console.log(classe);*/
 
-let options = {weekday:'long', year:'numeric', month:'long', day:'numeric'};
- classe.dateDebut = new Date (2022, 10, 1).toLocaleDateString("fr-FR", options);
- classe.dateFin = new Date (2023, 06, 25).toLocaleDateString("fr-FR", options);
+let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+classe.dateDebut = new Date(2022, 10, 1).toLocaleDateString("fr-FR", options);
+classe.dateFin = new Date(2023, 06, 25).toLocaleDateString("fr-FR", options);
 
-console.log (classe);
+console.log(classe);
+
+/*----------------------Formulaires, Dates et Classes-----------*/
+
+var stage = "";
+
+class Classe {
+    intitule;
+    dateDebut;
+    dateFin;
+
+
+    creerStage() {
+        return 
+
+    }
+    afficherStage() {
+
+    }
+}
