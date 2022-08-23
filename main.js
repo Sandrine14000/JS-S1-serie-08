@@ -33,6 +33,12 @@ let anotherStagiaire = new Stagiaire("Lucette", "Anderson");
 console.log(anotherStagiaire);
 
 
-let Class= new Classe("DWWM");
-Class.ajouterStagiaire(stagiaires);
-console.log(Class);
+let classe = new Classe("DWWM");
+classe.ajouterStagiaire(stagiaires);
+/*console.log(classe);*/
+
+let options = {weekday:'long', year:'numeric', month:'long', day:'numeric'};
+ classe.dateDebut = new Date (2022, 10, 1).toLocaleDateString("fr-FR", options);
+ classe.dateFin = new Date (2023, 06, 25).toLocaleDateString("fr-FR", options);
+
+console.log (classe);
