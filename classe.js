@@ -8,7 +8,7 @@ class Classe {
     }
 
      ajouterStagiaire(stagiaire) {
-        listeStagiaire.push(stagiaire);
+       return this.listeStagiaire.push(stagiaire);
     }
 }
 
